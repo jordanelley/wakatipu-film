@@ -2,17 +2,19 @@ import './App.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import Footer from "./components/Footer";
 
 function NavBar() {
   return (
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#">Whakatipu film</Navbar.Brand>
+          <Navbar.Brand href="#">Wakatipu film</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#services">Services</Nav.Link>
+              <Nav.Link href="#products">Products</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
@@ -49,6 +51,12 @@ function App() {
             Get digital copies of your photos for $1
             Get the photos printed on gloss photo paper for an additional 50c each
           </div>
+          <h2> Contact </h2>
+          <div className="info">
+              Frankton Road, 9300
+              Text 021-xxxxxxx for enquiries
+          </div>
+          <Footer/>
       </div>
   );
 }

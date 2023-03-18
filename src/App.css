@@ -70,3 +70,75 @@ h2{
 .info{
   padding: 2em;
 }
+
+.footer{
+  text-align: center;
+  background-color: grey;
+  height: 6vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    background-color: #333;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-nav .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-toggler {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .navbar-collapse.show + .navbar-toggler .navbar-toggler-icon {
+    background-color: #fff;
+  }
+
+  .navbar-collapse.show ~ .navbar-nav {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
