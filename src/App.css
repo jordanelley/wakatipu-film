@@ -2,37 +2,71 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #cccccc;
+}
+.header{
+  background-image: url("../public/QueenstownFilm.png");
+  height: 414px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-size: 10em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.services{
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.service{
+  height: 20em;
+  width: 20em;
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  border: 20em black;
+  background-image: url("../public/film3.png");
+}
+
+#scan-service{
+  background-image: url("../public/d1.png");
+}
+
+#develop-service{
+  background-image: url("../public/d2.png");
+}
+
+h3{
+  font-size: 3.5em;
+  text-align: center;
+  opacity: 0.6;
+  color: black;
+}
+h3:hover{
+  opacity: 1;
+  font-size: 4em;
+}
+
+h6{
   color: white;
+  background-color: red;
+  padding: 0.5em;
+  transform: rotate(-10deg);
+}
+h2{
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info{
+  padding: 2em;
 }
