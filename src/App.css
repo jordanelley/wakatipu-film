@@ -13,7 +13,7 @@ body {
   align-items: center;
 }
 h1{
-  font-size: 10em;
+  font-size: 10vw;
 }
 
 .services{
@@ -35,7 +35,7 @@ h1{
   justify-content: center;
   align-items: center;
   border: 20em black;
-  background-image: url("../public/film3.png");
+  /*background-image: url("../public/film3.png");*/
 }
 
 #scan-service{
@@ -47,20 +47,20 @@ h1{
 }
 
 h3{
-  font-size: 3.5em;
+  font-size: 5vw;
   text-align: center;
   opacity: 0.6;
   color: black;
 }
 h3:hover{
   opacity: 1;
-  font-size: 4em;
+  font-size: 5.5vw;
 }
 
 h6{
   color: white;
   background-color: red;
-  padding: 0.5em;
+  padding: 1vw;
   transform: rotate(-10deg);
 }
 h2{
