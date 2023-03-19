@@ -4,24 +4,24 @@ import  "./Hero.css"
 const Hero = () => {
 
     return (
-
         <div>
             <div className="header">
                 <h1> Wakatipu Film</h1>
             </div>
+            <h2> We're just on Frankton Road</h2>
             <h2> Services</h2>
             <div className="services">
                 <div className="service" id="scan-service">
-                    <h3> Scan and Print</h3>
+                    <h3> Digitalise and Print</h3>
                 </div>
                 <div className="service" id="develop-service">
                     <h3>Develop Film</h3>
                     <h6>coming soon</h6>
                 </div>
             </div>
-            <h2> Scan and Print </h2>
+            <h2> Digitalise and Print </h2>
             <div className="info">
-                Use our 20MP scanner to produce a quality scan of your film and then (optionally) print each
+                Receive a quality digital copy of your film and then (optionally) print each
                 photo on a 4" x 6" photo
             </div>
             <h2 > Pricing </h2>

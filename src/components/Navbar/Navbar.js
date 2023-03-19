@@ -33,7 +33,7 @@ const Navbar = () => {
                 centered>
 
                   <LinkTab label="Home" href="/" />
-                  <LinkTab label="Services" href="/about" />
+                  <LinkTab label="Services" href="/hero" />
                   <LinkTab label="Products" href="/about" />
                   <LinkTab label="Contact" href="/about" />
               </Tabs>
