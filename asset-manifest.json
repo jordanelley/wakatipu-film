@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/wakatipu-film/static/css/main.ff24e320.css",
-    "main.js": "/wakatipu-film/static/js/main.ac6eb096.js",
+    "main.js": "/wakatipu-film/static/js/main.65d581d1.js",
     "static/js/787.86b812e4.chunk.js": "/wakatipu-film/static/js/787.86b812e4.chunk.js",
     "static/media/QueenstownFilm.png": "/wakatipu-film/static/media/QueenstownFilm.1345ffbba1b7e1babe19.png",
     "static/media/d1.png": "/wakatipu-film/static/media/d1.0752b68b82b3dfc12d10.png",
     "static/media/d2.png": "/wakatipu-film/static/media/d2.282b9d8bdfde2638b721.png",
     "index.html": "/wakatipu-film/index.html",
     "main.ff24e320.css.map": "/wakatipu-film/static/css/main.ff24e320.css.map",
-    "main.ac6eb096.js.map": "/wakatipu-film/static/js/main.ac6eb096.js.map",
+    "main.65d581d1.js.map": "/wakatipu-film/static/js/main.65d581d1.js.map",
     "787.86b812e4.chunk.js.map": "/wakatipu-film/static/js/787.86b812e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff24e320.css",
-    "static/js/main.ac6eb096.js"
+    "static/js/main.65d581d1.js"
   ]
 }
